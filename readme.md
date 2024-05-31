@@ -1,11 +1,10 @@
-好的，我会将所有内容都放在一个单一的模块中，方便复制和使用。
-
-```markdown
 # WARP Endpoint IP 优选工具
 
 ## 介绍
 
-本仓库包含一个用于优化 WARP Endpoint IP 的脚本，帮助用户通过 Cloudflare 的 WARP 服务获得更好的网络性能。该脚本会自动选择最优的 Endpoint IP 并配置到 WARP 中，使您的网络连接更加稳定和快速。
+一个用于优化 WARP Endpoint IP 的脚本，帮助用户通过 Cloudflare 的 WARP 服务获得更好的网络性能。
+
+该脚本会自动选择最优的 Endpoint IP 并配置到 WARP 中，使您的网络连接更加稳定和快速。
 
 ## 特性
 
