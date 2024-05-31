@@ -48,6 +48,25 @@
 
 5. 脚本将下载并运行 WARP Endpoint IP 优选工具，并显示前十个最优的 Endpoint IP。第一个最优的 IP 将被自动配置到 WARP 中。
 
+
+### 设置别名以便快速启动
+
+您可以通过在 `.bashrc` 或 `.zshrc` 文件中添加别名来快速启动脚本：
+
+1. 打开 `.bashrc` 或 `.zshrc` 文件并添加以下内容：
+
+   ```bash
+   echo 'alias optimize-warp="~/path/to/warp-endpoint-optimizer/optimize_warp_endpoint.sh"' >> ~/.zshrc && source ~/.zshrc
+   ```
+
+   请将 `~/path/to/warp-endpoint-optimizer/` 替换为实际路径。
+
+2. 现在您可以通过以下命令快速启动脚本：
+
+   ```bash
+   optimize-warp
+   ```
+
 ## 注意事项
 
 - 该脚本仅支持 x86_64 和 arm64 架构的 CPU。
