@@ -56,7 +56,7 @@
 1. 打开 `.bashrc` 或 `.zshrc` 文件并添加以下内容：
 
    ```bash
-   echo 'alias optimize-warp="~/path/to/warp-endpoint-optimizer/optimize_warp_endpoint.sh"' >> ~/.zshrc && source ~/.zshrc
+   echo 'alias optimize-warp="/Users/river/dev/scriptPool/cloudfalre-warp/warp-endpoint-optimizer/warp_optimizer.sh"' >> ~/.zshrc && source ~/.zshrc
    ```
 
    请将 `~/path/to/warp-endpoint-optimizer/` 替换为实际路径。
