@@ -30,9 +30,8 @@ getCPUArch(){
 
 # 优化 WARP Endpoint IP
 optimizeWARPIP(){
-    local script_dir; script_dir=$(dirname "$0")
-    local result_file="$script_dir/result.csv"
-    local warp_tool="$script_dir/warp"
+    local result_file="result.csv"
+    local warp_tool="warp"
 
     # 删除之前的优选结果文件，以避免出错
     rm -f "$result_file"
